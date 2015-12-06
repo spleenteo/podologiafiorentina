@@ -1,0 +1,9 @@
+- b = block ||= nil
+- if b.present?
+  .wrap
+    .grid.space--both-5
+      - b.text_widgets.each do |w|
+        .grid__item.lap-6-12
+          .widget
+            h2.widget__title = w.title
+            p.widget__body == w.body

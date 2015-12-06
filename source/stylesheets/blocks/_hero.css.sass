@@ -1,0 +1,38 @@
+.hero
+
+.hero__logo
+  color: $white-color
+  font-size: 200px
+  background-color: rgba($pink-color, .5)
+  padding: 20px
+  margin-top: 10%
+  height: 210px
+  width: 210px
+  border-radius: 50%
+
+.hero__heading
+  +heading-font-family
+  +font-size(30px)
+  font-weight: bold
+  text-shadow: 2px 2px #000000
+  +vertical-padding(2)
+
+.hero__text
+  +vertical-margin(2)
+  text-shadow: 2px 2px #000000
+  background-color: rgba($primary-color, .5)
+  +padding(2)
+
+.hero--subscribe
+  @extend .hero
+  min-height: 50vh
+  background-image: url("../images/hero/temple.jpg")
+  color: white
+  .hero__text a
+    color: white
+
+.hero--info
+  @extend .hero
+  min-height: 75vh
+  color: $white-color
+  background-image: url("../images/hero/kerala.jpg")

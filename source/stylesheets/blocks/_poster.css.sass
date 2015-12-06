@@ -1,0 +1,23 @@
+.poster
+  // height: 60vh
+  min-height: 60vh
+  background-repeat: no-repeat
+  background-position: center center
+  background-attachment: fixed
+  background-size: cover
+  padding-top: 10%
+  padding-bottom: 10%
+  box-sizing: border-box
+
+
+.poster__claim
+  +serif-font-family
+  +font-size(20px)
+  font-style: italic
+  background-color: rgba($white-color, .8)
+  +vertical-padding(2)
+  +padding(2)
+
+.poster__claim--center
+  @extend .poster__claim
+  text-align: center

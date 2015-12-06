@@ -1,0 +1,28 @@
+.widget
+  box-sizing: border-box
+  +padding(1)
+  +vertical-margin(1)
+
+.widget__icon
+  +font-size(40px)
+
+.widget__title
+  +heading-font-family
+  +font-size(25px)
+  +margin-bottom(1)
+
+  &:after
+    content: ""
+    display: block
+    background-color: $primary-color
+    margin-top: 10px
+    height: 8px
+    width: 30px
+
+.widget__body
+
+.widget--rev
+  @extend .widget
+  .widget__title
+    &:after
+      background-color: $orange-color

@@ -1,0 +1,27 @@
+site: build
+
+max_age:
+  "fonts/*": <%= 60 * 60 * 24 * 30 %>
+  "images/*": <%= 60 * 60 * 24 * 30 %>
+  "javascripts/*": <%= 60 * 60 * 24 * 30 %>
+  "stylesheets/*": <%= 60 * 60 * 24 * 30 %>
+
+gzip:
+  - .html
+  - .css
+  - .js
+  - .svg
+  - .eot
+  - .ttf
+  - .woff
+  - .woff2
+
+exclude_from_upload:
+  - bin
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+cloudfront_invalidate_root: true
+concurrency_level: 5

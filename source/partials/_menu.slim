@@ -1,0 +1,16 @@
+ul.nav--dots.main-menu
+  - if I18n.locale == :it
+    li.nav__item.main-menu__item = link_to t("menu.what"), "/"
+    li.nav__item.main-menu__item = link_to t("menu.participate"), "/#{t('paths.participate')}"
+    li.nav__item.main-menu__item = link_to t("menu.info"), "/#{t('paths.info')}"
+    / li.nav__item.main-menu__item = link_to t("menu.archive"), "/#{t('paths.archive')}"
+  - else
+    li.nav__item.main-menu__item = link_to t("menu.what"), "/#{I18n.locale}"
+    li.nav__item.main-menu__item = link_to t("menu.participate"), "/#{I18n.locale}/#{t('paths.participate')}"
+    li.nav__item.main-menu__item = link_to t("menu.info"), "/#{I18n.locale}/#{t('paths.info')}"
+    / li.nav__item.main-menu__item = link_to t("menu.archive"), "#{I18n.locale}/#{t('paths.archive')}"
+
+  ul.nav--right.main-menu__right
+    li.nav__item.main-menu__item: a href="/en" en
+    li.nav__item.main-menu__item: a href="/es" es
+    li.nav__item.main-menu__item: a href="/" it

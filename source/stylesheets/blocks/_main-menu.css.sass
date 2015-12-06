@@ -1,0 +1,20 @@
+.main-menu
+  background-color: rgba(#000000, .5)
+  +vertical-padding(2)
+  color: $primary-color
+
+  a
+    color: $primary-color
+    text-decoration: none
+    text-transform: uppercase
+    +heading-font-family
+    +horizontal-padding(1)
+    font-weight: 500
+    +font-size(14px)
+    &:hover
+      text-decoration: underline
+      transition: all 0.8s ease-in-out
+
+.main-menu__right
+  float: right
+
