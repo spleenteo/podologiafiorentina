@@ -11,6 +11,8 @@ html
     = javascript_include_tag  "all"
 
   body
+    = partial "menu"
+
     = yield
 
     footer.footer
@@ -27,4 +29,5 @@ html
           .grid__item.desk-6-12
             .footer__box
 
+= partial "js_includes"
 

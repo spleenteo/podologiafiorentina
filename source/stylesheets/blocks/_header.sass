@@ -1,0 +1,45 @@
+.header
+  +padding-top(2)
+  +padding-bottom(2)
+
+.header__title
+  +margin-top(2)
+  +margin-bottom(2)
+  font-family: 'Raleway'
+  text-transform: uppercase
+  color: white
+  font-weight: 700
+  font-size: 45px
+  letter-spacing: 2.5px
+  text-shadow: 1px 1px 1px #000
+
+.header__desktop-nav
+  float: right
+  +margin-top(1)
+  display: flex
+  flex-flow: row wrap
+
+a.header__desktop-nav__item
+  flex: 1 1 auto
+  +padding(1)
+  text-transform: uppercase
+  text-decoration: none
+  font-weight: 700
+
+  &.is-active
+    text-decoration: none
+    color: $base-body-color
+    border-bottom: 3px solid $primary-color
+
+.header__mobile-nav
+  float: right
+  +margin-top(1)
+  display: none
+  width: 100%
+
+@media (max-width: 800px)
+  .header__mobile-nav
+    display: block
+  .header__desktop-nav
+    display: none
+    margin-top: 10px

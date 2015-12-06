@@ -22,6 +22,24 @@ set :markdown, fenced_code_blocks: true, smartypants: true, autolink: true,
 activate :syntax, line_numbers: false
 activate :directory_indexes
 
+set :url_root, 'http://www.podologiafiorentina.it' # as http://demo1.cantierecreativo.net
+
+helpers do
+  def slugify(string)
+    string.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+  end
+
+  def active_link_to(name, url, options = {})
+    if current_page.url == url
+      options[:class] = options.fetch(:class, '') + " is-active"
+      link_to name, url, options
+    else
+      link_to name, url, options
+    end
+  end
+end
+
+
 configure :build do
   activate :minify_css
   activate :minify_javascript

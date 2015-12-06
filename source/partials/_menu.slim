@@ -1,6 +1,7 @@
-ul.nav--dots.main-menu
-  li.nav__item.main-menu__item = link_to "Home", "/"
-  li.nav__item.main-menu__item = link_to "Chi siamo", "#"
-  li.nav__item.main-menu__item = link_to "Patologie", "#"
-  li.nav__item.main-menu__item = link_to "Trattamenti", "#"
-  li.nav__item.main-menu__item = link_to "Contattaci", "#"
+.wrap
+  nav.nav--dots
+    .nav__item = active_link_to "Home", "/"
+    .nav__item = link_to "Chi siamo", "#"
+    .nav__item = link_to "Patologie", "#"
+    .nav__item = link_to "Trattamenti", "#"
+    .nav__item = link_to "Contattaci", "#"

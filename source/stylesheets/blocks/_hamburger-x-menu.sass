@@ -1,0 +1,102 @@
+$transition: .25s
+$button-size : 3rem
+
+.lines-button
+  float: right
+  width: 59px
+  border: 0
+  float: right
+  margin-top: -59px
+  background-color: white
+  max-height: 80px
+  padding: $button-size/2 $button-size/4
+  transition: .3s
+  cursor: pointer
+  user-select: none
+  border-radius: $button-size/3
+  &:active, &:focus
+    .hamburger-menu
+      opacity: 1
+      outline: 0px
+  &:hover
+    opacity: 1
+  &:active
+    transition: 0
+
+@mixin line
+  display: inline-block
+  width: $button-size
+  height: $button-size/7
+  background: $primary-color
+  border-radius: $button-size/10
+  transition: $transition
+
+.lines
+  @include line
+  position: relative
+
+  &:before, &:after
+    @include line
+    position: absolute
+    left: 0
+    content: ''
+    -webkit-transform-origin: $button-size/14 center
+    transform-origin: $button-size/14 center
+  &:before
+    top: $button-size/4
+  &:after
+    top: -$button-size/4
+
+.lines-button.close
+  -webkit-transform: scale3d(.8,.8,.8)
+  transform: scale3d(.8,.8,.8)
+
+.lines-button.x.close
+  .lines
+    background: transparent
+    &:before, &:after
+      -webkit-transform-origin: 50% 50%
+      transform-origin: 50% 50%
+      top: 0
+      width: $button-size
+    &:before
+      -webkit-transform: rotate3d(0,0,1,45deg)
+      transform: rotate3d(0,0,1,45deg)
+    &:after
+      -webkit-transform: rotate3d(0,0,1,-45deg)
+      transform: rotate3d(0,0,1,-45deg)
+
+.hamburger-menu
+  z-index: 1
+  opacity: 0
+  max-height: 0
+  overflow: hidden
+  transition: all 500ms ease
+  margin: auto -24px
+
+  &.expanded
+    background-color: white
+    border: 0
+    display: block
+    opacity: 1
+    max-height: 500px
+    margin-bottom: -22px
+
+a.hamburger-menu__item
+  display: block
+  text-align: center
+  border-bottom: 3px solid $primary-color
+  padding: 15px 0
+  text-decoration: none
+  color: $primary-color
+  font-family: 'Raleway'
+  text-transform: uppercase
+  transition: all 300ms linear
+
+  &:first-child
+    margin-top: 10px
+    border-top: 3px solid $primary-color
+
+  &:hover, &:active, &:focus
+    background: $primary-color
+    color: white
