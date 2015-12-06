@@ -5,7 +5,7 @@ html
     meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1"
     meta name="mobile-web-app-capable" content="yes"
 
-    title = current_page.data.title || "Podologia fiorentina"
+    title = "#{ current_page.data.title } | podologia firenze" || "Podologia fiorentina"
 
     = stylesheet_link_tag "application"
     = javascript_include_tag  "all"
@@ -13,16 +13,18 @@ html
   body
     = yield
 
-
     footer.footer
       .wrap
         .grid
           .grid__item.desk-6-12
             .widget--rev.space--bottom-2
-              h2.widget__title myeloneuritis
-              p.widget__body pressworker versifiable unviolent cyclomania pyramidize periependymal telethon apocalyptism mangonism finfoot Cynodontia emotionalize leisurely creamlike concent uncontradicted sententious bathypelagic bespit exploiture composite enjoin soneri psalmless
+              h2.widget__title Podologia Fiorentina
+              .widget__body
+                p P.Iva XXXXXXXXXXX
+                p Via XXXXXXXX, XX Firenze
+                p Tel XXX XXXXXX
 
           .grid__item.desk-6-12
             .footer__box
-              iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fewd15&amp;width=444px&amp;height=558&amp;colorscheme=dark&amp;show_faces=true&amp;header=false&amp;stream=true&amp;show_border=false&amp;appId=1394960387425493" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:444px; height:558px;" allowTransparency="true"
+
 
