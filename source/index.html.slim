@@ -1,10 +1,8 @@
 ---
 title: East West Dialogue homepage
 ---
-- content_for(:head)
-  == dato_meta_tags(dato.home)
 
-.hero--primary style="background-image: url('#{ dato.home.featured_image.file.width("1100").fit("fit").format("jpg").to_url if dato.home.featured_image.present? }')"
+.hero--primary
   .hero__sticky
     = partial "../partials/menu"
 
@@ -12,10 +10,6 @@ title: East West Dialogue homepage
     .hero__body
       .hero__body__inner
         .hero__logo.icon--logo
-        h1.hero__heading = dato.home.title
-        p.hero__text = dato.home.claim
+        h1.hero__heading Podologia fiorentina
+        p.hero__text tittie bromite nefarious retrogradingly unchloridized muliebrity conspiratorially unrehabilitated unloosable semidocumentary fraughan tolerable plasmation taa koksaghyz canalman pentecostarion ichthyosaurian dasnt photoradio snivy postacetabular Ionicize sinarquist
 
-= partial "../partials/text_widgets", locals: {block: dato.block_one}
-= partial "../partials/poster", locals: {poster: dato.poster_one}
-= partial "../partials/text_widgets", locals: {block: dato.block_two}
-= partial "../partials/poster", locals: {poster: dato.poster_two}

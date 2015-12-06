@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 source 'https://rails-assets.org'
 
 gem 'middleman-autoprefixer'
-gem 'middleman-dato', '0.0.1.rc11'
 gem 'middleman-livereload', '~> 3.1.0'
 gem "jquery-middleman"
 gem 'middleman-search_engine_sitemap'
