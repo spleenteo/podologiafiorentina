@@ -9,8 +9,12 @@
 
 header.header
   .wrap
-    .grid
+    .grid--bottom
       .grid__item.desk-4-12
-        p logo
-      .grid__item.desk-8-12.align--right
+        .header__logo
+          = link_to "/" do
+            = image_tag "logo--full--white.png"
+
+      .grid__item.desk-8-12
+        .header__menu
           = partial "menu"

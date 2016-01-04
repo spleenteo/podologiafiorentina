@@ -10,6 +10,22 @@
   box-sizing: border-box
 
 
+.poster__title
+  text-align: center
+  +font-size(40px)
+  +vertical-padding(2)
+
+
+.poster__title--logo
+  @extend .poster__title
+  &:before
+    @extend .icon--logo-foot:before
+    display: block
+    +font-size(100px)
+
+
+
+
 .poster__claim
   +serif-font-family
   +font-size(20px)
