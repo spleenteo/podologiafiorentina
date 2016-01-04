@@ -2,7 +2,7 @@
 title: Homepage
 ---
 
-.hero
+section.hero
   .wrap
     .hero__body
       .hero__body__inner
@@ -10,14 +10,52 @@ title: Homepage
         p.hero__text
           | "Le scarpe le voglio larghe di dentro e strette di fuori,<br>
           | Sapete, ho i piedi che mi hanno fatto una cattiva riuscita.” <em>Totò</em>
+
+        p Da 11 anni Podologia Fiorentina si impegna a trattare le problematiche podologiche e il dolore da esse prodotte con strumentazione all’avanguardia e in piena sicurezza, scegliendo il trattamento più adeguato per la risoluzione della patologia del piede.
+        p Da 11 anni Podologia Fiorentina si impegna a trattare le problematiche podologiche e il dolore da esse prodotte con strumentazione all’avanguardia e in piena sicurezza, scegliendo il trattamento più adeguato per la risoluzione della patologia del piede.
+
+
         .hero__actions
-          a.button href="#" contattaci
+          = link_to "#", class: "button--primary" do
+            i.icon--phone
+            span contattaci
 
 
 .space--both-3
   .wrap
     .grid--center
-      .grid__item.desk-8-12
-        p Da 11 anni Podologia Fiorentina si impegna a trattare le problematiche podologiche e il dolore da esse prodotte con strumentazione all’avanguardia e in piena sicurezza, scegliendo il trattamento più adeguato per la risoluzione della patologia del piede.
+      .grid__item.lap-4-12
+        .widget--home
+          .widget__image
+            = image_tag "doctor.svg"
+          .widget__title
+            h2 = link_to "Chi è il podologo", "/chi-siamo/"
+          .widget__body
+            p Il Podologo è l’operatore sanitario che con laurea abilitante, dopo esame obiettivo...
+          .widget__cta
+            = link_to "/chi-siamo/" do
+              i.icon--circle-right.icon--huge
 
+      .grid__item.lap-4-12
+        .widget--home
+          .widget__image
+            = image_tag "foot.svg"
+          .widget__title
+            h2 = link_to "Patologie", "/patologie/"
+          .widget__body
+            p Il dolore ai piedi è una delle condizioni più gravose e invalidanti che può portare il paziente...
+          .widget__cta
+            = link_to "#" do
+              i.icon--circle-right.icon--huge
 
+      .grid__item.lap-4-12
+        .widget--home
+          .widget__image
+            = image_tag "bands.svg"
+          .widget__title
+            h2 = link_to "Trattamenti", "/trattamenti/"
+          .widget__body
+            p Nem quam volores temoluptatio es as eum faccabor simus, consec- to miliquame nobis ut...
+          .widget__cta
+            = link_to "/trattamenti/" do
+              i.icon--circle-right.icon--huge

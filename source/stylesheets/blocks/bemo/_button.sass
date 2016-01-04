@@ -17,6 +17,7 @@
   transition: box-shadow 0.1s $material-ease, transform 0.1s $material-ease, text-shadow 0.1s $material-ease
   font-size: 1.1em
   box-shadow: 0 0 0 rgba(black, 0.2)
+  text-transform: uppercase
 
   .no-touch &:hover
     box-shadow: 0 3px 5px rgba(black, 0.2)
@@ -60,7 +61,8 @@
   @extend .button
 
 .button--primary
-  color: $primary-color
+  background-color: $primary-color
+  color: $light-body-color
   border-color: $primary-color
 
 .button--notice

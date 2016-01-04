@@ -7,6 +7,9 @@ html
   +at-breakpoint(desk)
     +rem-html-reset(1)
 
+*
+  box-sizing: border-box
+
 body
   +body-font-family
   +font-size(regular)
@@ -17,8 +20,8 @@ body
   text-rendering: optimizeLegibility
 
 a
-  color: $base-body-color
-  text-decoration: underline
+  color: $primary-color
+  text-decoration: none
 
 ul, ol, blockquote
   padding-left: 0
@@ -33,6 +36,7 @@ fieldset, hr, form
   margin: 0
 
 h1, h2, h3, h4, h5, h6
+  +heading-font-family
   font-size: inherit
   font-family: inherit
   font-weight: inherit

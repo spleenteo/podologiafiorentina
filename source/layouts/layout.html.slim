@@ -11,23 +11,39 @@ html
     = javascript_include_tag  "all"
 
   body
-    = partial "menu"
+    .canvas
+      .canvas__main
+        = partial "header"
+        = yield
 
-    = yield
+        footer.footer
+          .wrap
+            .grid
+              .grid__item.desk-6-12
+                .widget--rev.space--bottom-2
+                  h2.widget__title Podologia Fiorentina
+                  .widget__body
+                    = partial "footer-details"
 
-    footer.footer
-      .wrap
-        .grid
-          .grid__item.desk-6-12
-            .widget--rev.space--bottom-2
-              h2.widget__title Podologia Fiorentina
-              .widget__body
-                p P.Iva XXXXXXXXXXX
-                p Via XXXXXXXX, XX Firenze
-                p Tel XXX XXXXXX
+              .grid__item.desk-6-12
+                .footer__box
 
-          .grid__item.desk-6-12
-            .footer__box
+      aside.canvas__aside
+        .aside
+          .aside__content
+            .aside__logo
+              = link_to "/" do
+                = image_tag "logo--full--black.png", title: "Logo Podologia Fiorentina"
+            .aside__widget
+              .aside__menu
+                = partial "menu"
+
+            .aside__widget
+              = partial "footer-details"
+
+
+
+
 
 = partial "js_includes"
 

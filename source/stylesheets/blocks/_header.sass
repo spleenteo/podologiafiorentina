@@ -1,13 +1,18 @@
 .header
-  +padding-top(2)
-  +padding-bottom(2)
+  display: none
+
+  +at-breakpoint(desk)
+    display: block
+    +padding-top(2)
+    +padding-bottom(2)
+    background-color: $black-color
 
 .header__title
   +margin-top(2)
   +margin-bottom(2)
   font-family: 'Raleway'
   text-transform: uppercase
-  color: white
+  color: $white-color
   font-weight: 700
   font-size: 45px
   letter-spacing: 2.5px

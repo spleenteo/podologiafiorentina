@@ -1,0 +1,29 @@
+.aside
+.aside__content
+  +padding(2)
+
+.aside__logo
+  +margin-bottom(2)
+
+.aside__widget
+  +margin-bottom(2)
+  +padding-bottom(2)
+  border-bottom: 1px dotted $base-body-color
+
+
+.aside__menu
+  display: none
+  +at-breakpoint(lte-lap)
+    display: block
+    .aside__menu__item
+      display: block
+      line-height: 3em
+      &:before
+        content: ""
+    .aside__menu__link
+      color: $base-body-color
+      text-transform: uppercase
+      text-decoration: none
+
+
+

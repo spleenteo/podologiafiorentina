@@ -51,6 +51,27 @@
   .nav__item--last
     padding: 0.4em
 
+.nav--main
+  .nav__item
+    text-transform: uppercase
+    padding: 0 5px
+    &:after
+      content: " |"
+      color: $light-body-color
+      padding-left: 5px
+    &:last-child
+      &:after
+        content: ""
+
+    a
+      color: $white-color
+      text-decoration: none
+
+      &:hover
+        color: $primary-color
+
+
+
 +at-breakpoint(desk)
   .nav--expand
     display: table
