@@ -1,13 +1,17 @@
 ---
-title: Homepage
+title: Centro riabilitativo del piede
 ---
 
-section.hero
+section.hero--home
   .poster style="background-image: url('/images/hero/baby-feet.jpg')"
     .wrap
-      h1.poster__title--logo.hidden--on-desk Podologia fiorentina
+      h1.poster__title--logo.hidden--on-desk
+        = image_tag "logo--full--black.png", title: "logo podologia fiorentina"
       .poster__claim--center
-        p "Le scarpe le voglio larghe di dentro e strette di fuori,<br> Sapete, ho i piedi che mi hanno fatto una cattiva riuscita." — Totò
+        p <em>&ldquo;</em>Le scarpe le voglio larghe di dentro e strette di fuori.
+        p Sapete, ho i piedi che mi hanno fatto una cattiva riuscita.<em>&rdquo;</em>
+        hr
+        .poster__claim__sign Totò
 
 
   .wrap
@@ -16,7 +20,6 @@ section.hero
         .hero__text
           .formatted-content
             p Da 11 anni <strong>Podologia Fiorentina</strong> si impegna a trattare le problematiche podologiche e il dolore da esse prodotte con strumentazione all’avanguardia e in piena sicurezza, scegliendo il trattamento più adeguato per la risoluzione della patologia del piede.
-            p Da 11 anni Podologia Fiorentina si impegna a trattare le problematiche podologiche e il dolore da esse prodotte con strumentazione all’avanguardia e in piena sicurezza, scegliendo il trattamento più adeguato per la risoluzione della patologia del piede.
 
 
         .hero__actions
@@ -25,7 +28,7 @@ section.hero
             span contattaci
 
 
-.space--both-3
+.triangle
   .wrap
     .grid--center
       .grid__item.lap-4-12
@@ -59,7 +62,7 @@ section.hero
           .widget__title
             h2 = link_to "Trattamenti", "/trattamenti/"
           .widget__body
-            p Nem quam volores temoluptatio es as eum faccabor simus, consec- to miliquame nobis ut...
+            p Il podologo deve sapere utilizzare tutte le tecniche a sua disposizione così da curare il paziente...
           .widget__cta
             = link_to "/trattamenti/" do
               i.icon--circle-right.icon--huge

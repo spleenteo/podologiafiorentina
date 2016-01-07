@@ -31,7 +31,7 @@
 
 .widget--home
   +margin-bottom(2)
-  +padding-bottom(2)
+  +padding(3)
   border-bottom: 1px dotted $base-body-color
 
   +at-breakpoint(lap)
@@ -45,3 +45,11 @@
 
   .widget__cta
     text-align: center
+
+  .widget__image
+    width: 30%
+    +at-breakpoint(lap)
+      width: 40%
+    +at-breakpoint(desk)
+      width: 30%
+

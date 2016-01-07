@@ -27,10 +27,12 @@
   +heading-font-family
   +font-size(delta)
   +margin-top(2)
-  max-width: 750px
   margin-left: auto
   margin-right: auto
   text-align: left
+
+  +at-breakpoint(desk)
+    width: 60%
 
 .hero__actions
   +margin-top(2)
@@ -47,3 +49,10 @@
   .hero__heading
     +font-size(40px)
 
+
+.hero--home
+  @extend .hero
+  .hero__body__inner
+    +vertical-padding(5)
+  .hero__actions
+    +margin-top(5)

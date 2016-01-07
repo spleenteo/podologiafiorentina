@@ -18,10 +18,9 @@
 
 .poster__title--logo
   @extend .poster__title
-  &:before
-    @extend .icon--logo-foot:before
-    display: block
-    +font-size(100px)
+  max-width: 80%
+  margin: 0 auto
+  opacity: .7
 
 
 
@@ -33,7 +32,31 @@
   background-color: rgba($white-color, .8)
   +vertical-padding(2)
   +padding(2)
+  margin: 0 auto
 
 .poster__claim--center
   @extend .poster__claim
   text-align: center
+  p
+    display: inline
+    padding-left: 0.5em
+  em
+    color: $primary-color
+    +font-size(alpha)
+  hr
+    margin: 20px auto
+    width: 20%
+
+
+  +at-breakpoint(ipad)
+    p
+      display: block
+      padding-left: 0
+
+  +at-breakpoint(desk)
+    width: 60%
+
+.poster__claim__sign
+  +font-size(delta)
+  color: $primary-color
+
