@@ -15,19 +15,25 @@
 
 .header__menu__item
   margin-right: 7px
-  &:after
-    content: "|"
-    padding-left: 7px
-    color: $light-body-color
-  &:last-child
+  +at-breakpoint(desk)
     &:after
-      content: ""
-      padding: 0
+      content: "|"
+      padding-left: 7px
+      color: $light-body-color
+    &:last-child
+      &:after
+        content: ""
+        padding: 0
 
 .header__menu__link
   color: $light-body-color
   text-transform: uppercase
-  &:hover, &.is-active
+  &:hover
     color: $primary-color
+  &.is-active
+    color: $white-color
+    background-color: $primary-color
+    padding: 3px 5px
+
 
 
