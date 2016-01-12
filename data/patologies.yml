@@ -1,0 +1,78 @@
+
+- title: "Alluce rigido"
+  subtitle: "(Sindrome da sovraccarico funzionale)"
+  description: "È la degenerazione della prima articolazione metatarsofalangea, cioè l’articolazione alla base  dell’alluce, che con la comparsa di osteofiti, sul dorso della testa metetarsale e alla base della prima falange, impediscono l'escursione articolare dorsale del dito. Le cause in genere sono un trauma o più microtraumi ripetuti. Può essere una patologia molto dolorosa e invalidante."
+  img: alluce-rigido
+
+- title: "Alluce valgo"
+  subtitle: "(Sindrome da insufficienza del primo raggio)"
+  description: "Si manifesta come una deviazione laterale dell'alluce verso le altre dita, con cui entra in conflitto. Associato a sindrome panatoria e a lassità legamentosa, provoca alterazioni secondarie quali dita a martello e metetarsalgie, con conseguente sviluppo di tilomi e elomi (calli) dolorosi."
+  img: alluce-valgo
+
+- title: "Dermatofitosi o tinea pedis"
+  subtitle: "Piede d'atleta"
+  description: "È una infezione micotica superficiale della pelle causata da un fungo che si localizza inizialmente nell'ultimo spazio interdigitale del piede, favorito da un’ambiente umido. Si manifesta con un rossore localizzato e fissazioni, prurito e desquamazione."
+  img: dermatofitosi
+
+- title: Disidrosi
+  description: "Detto anche Eczema disidrotico è caratterizzato da piccole vescicole profonde prodiginose, contenenti siero trasparente che con il tempo si riassorbono lasciando la pelle secca e screpolata, che tende a rompersi.  "
+  img: disidrosi
+
+- title: Elomi
+  subtitle: (occhio di pernice)
+  description: "Detto anche callo molle è un ispessimento della pelle e insorge nello spazio interdigitale, è causato dalla pressione reciproca fra le due dita adiacenti."
+  img: elomi
+
+- title: Fascite plantare
+  description: "È il dolore della fascia plantare tipicamente riferito al tallone, ovvero le fibre che decorrono in avanti dalla zona mediale del calcagno fino alla radice delle dita del piede. Dovuto a stress meccanico del piede o a pronazione dello stesso, si manifesta più acuto al risveglio e se sollecitato da un’attività fisica intensa."
+  img: fascite
+
+- title: Ipercheratosi
+  subtitle: (callo)
+  description: "Aumento dello spessore dello strato corneo dell'epidermide, in genere dovuto a sollecitazione meccanica da parte di una scarpa inadeguata, talvolta dovuto da sovraccarico funzionale accentuato, conseguenza di una sbagliata postura del piede."
+  img: ipercheratosi
+
+- title: Metatarsalgia
+  description: "Infiammazione dolorosa delle articolazioni metatarso-falange del piede, cioè l’articolazione alla base dell’alluce, che si esprime anche con la comparsa di ipercheratosi diffusa e/o tilomi profondi in corrispondenza delle teste metatarsali interessate. Dovuta prevalentemente a squilibrio funzionale del piede (scarpa con tacco troppo alto o da postura scorretta)."
+  img: matatarsalgia
+
+- title: Onicocriptosi
+  subtitle: (unghia incarnita)
+  description: "Nota anche come ipertrofia del bordo o del vello ungueale o unghia ipertrofica, è determinata dalla penetrazione dei bordi ungueali nei tessuti molli circostanti, essenzialmente dovuta a tre fattori quali: microtraumi, taglio non corretto dell'unghia, iperidrosi."
+  img: onicocriptosi
+
+- title: Onicofosi
+  description: "È un fastidioso accumulo di ipercheratosi (callo) nel vallo ungueale, cioè intorno alle unghie, dovuto principalmente all'uso di calzature strette o a verticalizzazione e involuzione dell'unghia. "
+   img: onicofosi
+
+- title: Onicogrifosi
+  description: "Ipertrofia (ispessimento) ungueale che si manifesta con una evidente deformazione della lamina detta a 'ancio'o a 'corno d'ariete', dovuta ad un’alterazione della matrice e del letto ungueale, a traumi ripetuti, a calzature inadeguate o da malattie sistemiche che impediscono il supporto nutritivo necessario. "
+  img: onicogrifosi
+
+- title: Onicomicosi
+  description: "Infezione dovuta a funghi che appartengono alla famiglia dei dermatofiti o anche da lieviti e muffe. Si manifesta con la comparsa di macchie biancastre ai lati o al margine libero dell'unghia, fino a coprire tutto il letto ungueale e, talvolta, compromettendo la matrice dell’unghia."
+  img: onicomicosi
+
+- title: Psoriasi
+  description: "Malattia infiammatoria cronica della pelle non infettiva e non contagiosa, sembra essere legata a fattori autoimmuni, genetici e ambientali. Si manifesta con la comparsa di placche, ispessimento e arrossature, coperte da squame di colore grigio che speso provocano prurito e bruciore, se le lesioni sono localizzate di estensione la pelle può arrivare a fissarsi. "
+  img: psoriasi
+
+- title: Psoriasi ungueale
+  description: "Patologia a carattere infiammatorio sistemico che colpisce la lamina ungueale con la presenza del cosiddetto 'pitting', ovvero piccole lesioni puntiformi depresse, lesioni striate longitudinali o trasversali e ipercheratosi subungueale."
+  img: psoriasi-ungueale
+
+- title: Tallodinia
+  description: "Condizione infiammatoria dolorosa localizzata al tallone, ovvero la parte posteriore del piede sotto al calcagno, che può derivare da borsiti, tendiniti, fasciti, spina calcaneale e da fratture da stress. Le cause possono essere l'obesità o il sovrappeso, l'artrosi, problematiche posturali, le calzature inadeguate, l’attività sportiva, le malattie sistemiche come gotta e le malattie reumatiche."
+  img: tallodinia
+
+- title: Tilomi
+  description: "Ipercheratosi (ispessimento cutaneo) concentrata profonda di forma conica, localizzata più comunemente sulla superficie dorsale dell'articolazione interfalangea e nella pianta del piede."
+   img: tilomi
+
+- title: Unghia involuta
+  description: "Alterazione della convessità trasversale della lamina ungueale che può manifestarsi in tre forme: a pinza, a tegola, con margini laterali ad angolo acuto."
+  img: unghia-involuta
+
+- title: Verruche
+  description: "Infezione della pelle causata dal virus della famiglia del Papilloma Virus (HPV1), facilmente riscontrabile in pazienti che frequentano palestre e piscine o con un indebolimento del sistema immunitario. Si tratta di formazioni costituite da un nucleo di tessuto e rivestito da vari strati di epidermide."
+  img: verruche

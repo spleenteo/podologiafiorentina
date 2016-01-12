@@ -1,33 +1,40 @@
 ---
-title: come trattare i piedi
+title: come curare i piedi
 ---
 
-.space--both-3
+
+.hero
   .wrap
-    h1.alpha Trattamenti
+    .hero__body
+      .hero__body__inner
+        .hero__text
+          .page-title Trattamenti
+          .formatted-content
+            p Il podologo deve sapere utilizzare tutte le tecniche a sua disposizione così da curare il paziente nella sua globalità, perché non sempre la causa primaria del dolore risiede dove questo si è manifestato. È importante risolvere l'episodio acuto ma, soprattutto evitare recidive, affinché la prevenzione sia il vero e proprio scopo del trattamento.
+
+        .hero__actions
+          = link_to "#", class: "button--primary" do
+            i.icon--phone
+            span Vuoi fissare una visita?
 
 
-.space--both-3
-  .wrap
-    .grid--center
-      .grid__item.desk-8-12
-        .formatted-content
+.space--top-1
+  .triangle
+    .wrap
+      .grid--center.grid
+        - data.treatments.each do |p|
+          .grid__item.lap-6-12.desk-4-12
+            .info-box
+              .space--top-3
+                = image_tag "trattamenti/#{p.img}.jpg", title: "foto di #{p.title} #{p.subtitle}", class: "info-box__image" if p.img.present?
 
-          p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ad deleniti distinctio temporibus dolores, doloribus odit, eos. Praesentium vel pariatur quod ducimus animi atque impedit minus, cumque tempora vitae laboriosam?
+              .space--both-1
+                h2.info-box__title = p.title
+                p.info-box__subtitle = p.subtitle if p.subtitle.present?
 
-          p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ad deleniti distinctio temporibus dolores, doloribus odit, eos. Praesentium vel pariatur quod ducimus animi atque impedit minus, cumque tempora vitae laboriosam?
-
-    .grid--center
-
-      - treatments = %W{ Massaggi Riabilitazione Manipolazione\ araldica Mossa\ d'hokuto }
-      - treatments.each do |t|
-        .grid__item.desk-4-12
-          .space--top-3
-            h2.gamma = t
-          .space--both-1
-            img src="http://fakeimg.pl/350x200/"
-
-          .space--both-1: .formatted-content
-            p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quisquam, eaque fugiat repudiandae soluta beatae sint pariatur atque mollitia voluptatem aut, maxime iste natus, temporibus tempore repellendus quam. Animi, perferendis!
-
-            a.button href="/trattamenti/" Trattamenti
+              .space--both-1: .formatted-content
+                p.info-box__description = p.description
+                p.info-box__button
+                  a href="/patologie/"
+                    span sintomi
+                    i.icon--arrow-right
