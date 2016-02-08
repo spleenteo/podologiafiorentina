@@ -1,4 +1,5 @@
 //= require jquery
+//= require isotope
 //= require_tree .
 
 document.addEventListener('DOMContentLoaded', function(){
@@ -15,4 +16,11 @@ var elements = document.querySelectorAll('[data-class-toggle]');
       e.preventDefault();
     });
   });
+
+  $('.grid').isotope({
+    // options
+    itemSelector: '.grid-item',
+    layoutMode: 'fitRows'
+  });
+
 });

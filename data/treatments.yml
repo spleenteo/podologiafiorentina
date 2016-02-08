@@ -1,31 +1,32 @@
-- title: "Trattamento meccanico"
-  description: "E' il trattamento che fa uso degli strumenti professionali del podologo bisturi e frese da turbina per la rimozione di ipercheratosi, tilomi ed elomi, tronchesi per il taglio delle unghie, frese da manipolo per la pulizia fronda delle unghie e dei valli ungueali (trattamento podologico)."
-  img: trattamento-meccanico
 
 - title: "ORTESI PLANTARE"
   subtitle: "(plantare ortopedico su misura)"
-  description: "Dispositivo medico confezionato su misura per il paziente, che serve a modificare le caratteristiche strutturali o funzionali dell'apparato neuro-muscolo-scheletrico del piede."
+  description: "Dispositivo medico confezionato su misura per il paziente da inserire nelle scarpe adattate o ortopediche con predisposizione per il plantare medico. Serve a modificare le caratteristiche strutturali o funzionali dell'apparato neuro-muscolo-scheletrico del piede."
   img: ortesi-plantare
 
 - title: "ORTESI IN SILICONE"
-  description: "Dispositivo medico, confezionato su misura per il paziente, da applicare direttamente sulla zona del piede da trattare, principalmente sulle dita. Esso può essere di protezione e scarico (proteggono una zona dolente o lesa dalla pressione), correttivo (riduce malformazioni delle dita). Realizzazione di plantare ortopedico per una giusta redistribuzione dei carichi."
+  description: "Dispositivo medico confezionato su misura per il paziente, da applicare direttamente sulla zona del piede da trattare, principalmente sulle dita. Esso può essere di protezione e scarico (protegge una zona dolente o lesa dalla pressione); correttivo (riduce malformazioni delle dita)."
   img: ortesi-silicone
 
 
 - title: "Ortonixia"
-  description: "Si tratta della rieducazione delle lamine ungueali morfologicamente alterate. In pratica le unghie che crescono in modo scorretto e provocano dolore. Consiste nell'applicazione sulla superficie dell'unghia di fili in titanio che fungono da guida e impediscono l'eccessiva curvatura, così da ottenere una corretta ricrescita della stessa e l'eliminazione del dolore."
+  description: "Dispositivo medico confezionato su misura per il paziente, atto a rieducare delle lamine ungueali morfologicamente alterate. Consiste nell'applicazione sulla superficie dell’unghia di fili in titanio, che fungono da guida e correggono l'eccessiva curvatura, così da ottenere una corretta ricrescita della stessa e l'eliminazione del dolore."
   img: ortonixia
 
 - title: "SISTEMICA"
-  description: "Associata a terapia topica con preparati antimicotici, è importante che la terapia sia associata a un cambiamento delle abitudini comportamentali del paziente negli ambienti come le palestre e le piscine."
+  description: "È l’assunzione di farmaci da parte del paziente per via enterale (gastrointestinali) e parenterale (via percutanea, inalatoria e oculare, ecc.), di pertinenza del medico."
   img: sistemica
 
 - title: "TOPICA"
-  description: "Alcune malattie del piede hanno bisogno di medicazioni cutanee per guarire. La terapia topica è l'applicazione di trattamenti cutanei ai piedi atti a curare la patologia interessata. Possono essere applicati direttamente dal dottore e/o proseguiti dal paziente a casa."
+  description: "Consiste nell’applicazione di medicazioni semplici o di tipo avanzato sulla parte interessata o comunque in prossimità della lesione. La medicazione non entra nel sistema circolatorio ma esplica la sua aziona a livello locale."
   img: topica
 
+- title: "Trattamento meccanico"
+  description: "È il trattamento che fa uso degli strumenti professionali del podologo. Bisturi e frese da turbina per la rimozione delle ipercheratosi, tilomi ed elomi; tronchesi per il taglio delle unghie; frese da manipolo per la pulizia profonda delle unghie e dei valli ungueali. Il trattamento meccanico è parte fondamentale del trattamento podologico."
+  img: trattamento-meccanico
+
 - title: "TRATTAMENTO PODOLOGICO"
-  description: "Consiste in un intervento diretto sul piede, dopo un attento esame obiettivo attraverso la visita podologica, che racchiude in sé tutte quelle terapie ed azioni che servono a curare e mantenere il piede e i suoi annessi (unghie) in buono stato, mediante terapia meccanica, cioè con l'uso di tronchesi e frese da manipolo per il taglio e la cura delle unghie, e l'uso di bisturi e frese da turbina per l'asportazione parziale o totale di ipercheratosi, tilomi e elomi (calli), nonché l'utilizzo di medicazioni avanzate e non per la cura delle lesioni. Il trattamento si avvale degli strumenti professionali del Podologo."
+  description: "Dopo un attento esame obiettivo, attraverso la visita podologia, consiste nell’intervento diretto sul piede che racchiude in sé tutte quelle terapie ed azioni che servono a curare e mantenere il piede e i suoi annessi (unghie) in buono stato, mediante terapia meccanica (uso di tronchesi e frese da manipolo, bisturi e frese da turbina), nonché l'utilizzo di medicazioni avanzate e non per la cura delle lesioni. Il trattamento si avvale degli strumenti professionali del podologo."
   img: podologico
 
 - title: "VISITA BAROPODOMETRICA"
@@ -33,5 +34,5 @@
   img: baropodometrica
 
 - title: "VISITA PODOLOGICA"
-  description: "L'esame obiettivo è la prima tappa della visita podologica, è fondamentale per la diagnosi e nella scelta del trattamento e della terapia di tutte le patologie podologiche. Consiste nellla valutazione della mobilità articolare; nella palpazione dei polsi arteriosi periferici; nello stato della cute, delle alterazioni dermatologiche, di quelle neurologiche, reumatologiche e posturologiche."
+  description: "L'esame obiettivo è la prima tappa della visita podologica, è fondamentale per la diagnosi e nella scelta del trattamento e della terapia di tutte le patologie podologiche. Consiste nella valutazione della mobilità articolare; nella palpazione dei polsi arteriosi periferici; nella valutazione dello stato della cute, delle alterazioni dermatologiche, di quelle neurologiche, reumatologiche e posturologiche."
   img: visita-podologica

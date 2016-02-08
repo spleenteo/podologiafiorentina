@@ -8,8 +8,7 @@ section.hero--home
       h1.poster__title--logo.hidden--on-desk
         = image_tag "logo--full--black.png", title: "logo podologia fiorentina"
       .poster__claim--center
-        p <em>&ldquo;</em>Le scarpe le voglio larghe di dentro e strette di fuori.
-        p Sapete, ho i piedi che mi hanno fatto una cattiva riuscita.<em>&rdquo;</em>
+        p <em>&ldquo;</em>Le scarpe le voglio larghe di dentro e strette di fuori. Sapete, ho i piedi che mi hanno fatto una cattiva riuscita.<em>&rdquo;</em>
         hr
         .poster__claim__sign Totò
 
@@ -19,7 +18,7 @@ section.hero--home
       .hero__body__inner
         .hero__text
           .formatted-content
-            p Da 11 anni <strong>Podologia Fiorentina</strong> si impegna a trattare le problematiche podologiche e il dolore da esse prodotte con strumentazione all’avanguardia e in piena sicurezza, scegliendo il trattamento più adeguato per la risoluzione della patologia del piede.
+            p Dal 2005 a FIrenze la <strong>Podologia Fiorentina</strong> si impegna a trattare le problematiche podologiche e il dolore da esse prodotte con strumentazione all’avanguardia e in piena sicurezza, scegliendo il trattamento più adeguato per la risoluzione delle patologie del piede.
 
 
         .hero__actions
@@ -34,7 +33,8 @@ section.hero--home
       .grid__item.lap-4-12
         .widget--home
           .widget__image
-            = image_tag "doctor.svg"
+            = link_to "/chi-siamo/" do
+              = image_tag "doctor.svg"
           .widget__title
             h2 = link_to "Chi è il podologo", "/chi-siamo/"
           .widget__body
@@ -46,19 +46,21 @@ section.hero--home
       .grid__item.lap-4-12
         .widget--home
           .widget__image
-            = image_tag "foot.svg"
+            = link_to "/patologie/" do
+              = image_tag "foot.svg"
           .widget__title
             h2 = link_to "Patologie", "/patologie/"
           .widget__body
             p Il dolore ai piedi è una delle condizioni più gravose e invalidanti che può portare il paziente...
           .widget__cta
-            = link_to "#" do
+            = link_to "/patologie/" do
               i.icon--circle-right.icon--huge
 
       .grid__item.lap-4-12
         .widget--home
           .widget__image
-            = image_tag "bands.svg"
+            = link_to "/trattamenti/" do
+              = image_tag "bands.svg"
           .widget__title
             h2 = link_to "Trattamenti", "/trattamenti/"
           .widget__body
