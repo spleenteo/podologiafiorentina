@@ -3,6 +3,7 @@
   subtitle: "(Sindrome da sovraccarico funzionale)"
   description: "È la degenerazione della prima articolazione metatarso-falangea, cioè l’articolazione alla base dell’alluce, che con la comparsa di osteofiti, sul dorso della testa metatarsale e alla base della prima falange, impediscono l'escursione articolare dorsale del dito. Le cause in genere sono un trauma o più microtraumi ripetuti. Può essere una patologia molto dolorosa e invalidante."
   img: alluce-rigido
+  code: alluce-rigido
 
 - title: "Alluce valgo"
   subtitle: "(Sindrome da insufficienza del primo raggio)"
@@ -11,16 +12,16 @@
 
 - title: "Dermatofitosi o tinea pedis"
   subtitle: "(Piede d'atleta)"
-  description: "È una infezione micotica superficiale della pelle causata da un fungo che si localizza inizialmente nell'ultimo spazio interdigitale del piede, è favorita da ambiente umido. Si manifesta con un rossore localizzato e fissazioni, prurito e desquamazione."
+  description: "È una infezione micotica superficiale della pelle causata da un fungo che si localizza inizialmente nell'ultimo spazio interdigitale del piede. È favorita da ambiente umido. Si manifesta con un rossore localizzato e fissazioni, prurito e desquamazione."
   img: dermatofitosi
 
 - title: Disidrosi
-  description: "È caratterizzato da piccole vescicole profonde pruriginose, contenenti siero trasparente, che con il tempo si riassorbono lasciando la pelle secca e screpolata, che tende a rompersi."
+  description: "Detto anche Eczema disidrotico, è caratterizzato da piccole vescicole profonde prodiginose contenenti siero trasparente che con il tempo si riassorbono lasciando la pelle secca e screpolata, che tende a rompersi."
   img: disidrosi
 
 - title: Elomi
-  subtitle: (occhio di pernice)
-  description: "Detto anche callo molle è un ispessimento della pelle e insorge nello spazio interdigitale, è causato dalla pressione reciproca fra le due dita adiacenti."
+  subtitle: (Occhio di pernice)
+  description: "Detto anche callo molle, è un ispessimento della pelle che insorge nello spazio interdigitale, è causato dalla pressione reciproca fra le due dita adiacenti."
   img: elomi
 
 - title: Fascite plantare
