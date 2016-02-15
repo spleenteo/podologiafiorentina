@@ -15,7 +15,7 @@ gem 'slim'
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 gem 'wdm', '~> 0.1.0', :platforms => [:mswin, :mingw]
 
-gem 'rails-assets-isotope'
+
 
 # debugging ruby
 

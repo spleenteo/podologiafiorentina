@@ -2,80 +2,143 @@
 - title: "Alluce rigido"
   subtitle: "(Sindrome da sovraccarico funzionale)"
   description: "È la degenerazione della prima articolazione metatarso-falangea, cioè l’articolazione alla base dell’alluce, che con la comparsa di osteofiti, sul dorso della testa metatarsale e alla base della prima falange, impediscono l'escursione articolare dorsale del dito. Le cause in genere sono un trauma o più microtraumi ripetuti. Può essere una patologia molto dolorosa e invalidante."
-  img: alluce-rigido
   code: alluce-rigido
+  relations:
+    - ortesi-plantare
+    - sistemica
+
 
 - title: "Alluce valgo"
   subtitle: "(Sindrome da insufficienza del primo raggio)"
   description: "Si manifesta come una deviazione laterale dell'alluce verso le altre dita, con cui entra in conflitto. Associato a sindrome pronatoria e a lassità legamentosa, provoca alterazioni secondarie quali dita a martello e metatarsalgie, con conseguente sviluppo di tilomi e elomi (calli) dolorosi."
-  img: alluce-valgo
+  code: alluce-valgo
+  relations:
+    - ortesi-plantare
+    - podologico
 
 - title: "Dermatofitosi o tinea pedis"
   subtitle: "(Piede d'atleta)"
   description: "È una infezione micotica superficiale della pelle causata da un fungo che si localizza inizialmente nell'ultimo spazio interdigitale del piede. È favorita da ambiente umido. Si manifesta con un rossore localizzato e fissazioni, prurito e desquamazione."
-  img: dermatofitosi
+  code: dermatofitosi
+  relations:
+    - sistemica
+    - topica
+
 
 - title: Disidrosi
   description: "Detto anche Eczema disidrotico, è caratterizzato da piccole vescicole profonde prodiginose contenenti siero trasparente che con il tempo si riassorbono lasciando la pelle secca e screpolata, che tende a rompersi."
-  img: disidrosi
+  code: disidrosi
+  relations:
+    - topica
+    - sistemica
 
 - title: Elomi
   subtitle: (Occhio di pernice)
   description: "Detto anche callo molle, è un ispessimento della pelle che insorge nello spazio interdigitale, è causato dalla pressione reciproca fra le due dita adiacenti."
-  img: elomi
+  code: elomi
+  relations:
+    - trattamento-meccanico
+    - ortesi-silicone
+
 
 - title: Fascite plantare
   description: "È il dolore della fascia plantare tipicamente riferito al tallone, ovvero la struttura muscolo-tendinea che collega il tallone (calcagno) alla radice di ogni dito del piede. Dovuto a stress meccanico del piede o a pronazione dello stesso, è più acuto al risveglio e se sollecitato da un’attività fisica intensa."
-  img: fascite
+  code: fascite
+  relations:
+    - ortesi-plantare
+    - sistemica
 
 - title: Ipercheratosi
   subtitle: (callo)
   description: "Aumento dello spessore dello strato corneo dell'epidermide, in genere dovuto a sollecitazione meccanica da parte di una scarpa inadeguata, talvolta dovuto da sovraccarico funzionale accentuato, conseguenza di una sbagliata postura del piede."
-  img: ipercheratosi
+  code: ipercheratosi
+  relations:
+    - ortesi-plantare
+    - podologico
+    - trattamento-meccanico
 
 - title: Metatarsalgia
   description: "Infiammazione dolorosa delle articolazioni metatarso-falange del piede, cioè l’articolazione alla base dell’alluce, che si esprime anche con la comparsa di ipercheratosi diffusa e/o tilomi profondi in corrispondenza delle teste metatarsali interessate. Dovuta prevalentemente a squilibrio funzionale del piede (scarpa con tacco troppo alto o da postura scorretta)."
-  img: matatarsalgia
+  code: matatarsalgia
+  relations:
+    - ortesi-plantare
+    - podologico
+    - trattamento-meccanico
+
 
 - title: Onicocriptosi
   subtitle: (unghia incarnita)
   description: "Nota anche come ipertrofia del bordo o del vallo ungueale o unghia ipertrofica, è determinata dalla penetrazione dei bordi ungueali nei tessuti molli circostanti, essenzialmente dovuta a tre fattori quali: microtraumi, taglio non corretto dell'unghia, iperidrosi."
-  img: onicocriptosi
+  code: onicocriptosi
+  relations:
+    - trattamento-meccanico
+    - podologico
+    - ortonixia
+
 
 - title: Onicofosi
   description: "È un fastidioso accumulo di ipercheratosi (callo) nel vallo ungueale, cioè intorno alle unghie, dovuto principalmente all'uso di calzature strette o a verticalizzazione e involuzione dell'unghia. "
-   img: onicofosi
+   code: onicofosi
+  relations:
+    - trattamento-meccanico
+    - podologico
+    - ortonixia
+
 
 - title: Onicogrifosi
   description: "Ipertrofia (ispessimento) ungueale che si manifesta con una evidente deformazione della lamina detta a ‘gancio’ o a 'corno d'ariete', dovuta ad un’alterazione della matrice e del letto ungueale, a traumi ripetuti, a calzature inadeguate o da malattie sistemiche che impediscono il supporto nutritivo necessario."
-  img: onicogrifosi
+  code: onicogrifosi
+  relations:
+    - trattamento-meccanico
+    - topica
 
 - title: Onicomicosi
   description: "Infezione dovuta a funghi che appartengono alla famiglia dei dermatofiti o anche da lieviti e muffe. Si manifesta con la comparsa di macchie biancastre ai lati o al margine libero dell'unghia, fino a coprire tutto il letto ungueale e, talvolta, compromettendo la matrice dell’unghia."
-  img: onicomicosi
+  code: onicomicosi
+  relations:
+    - trattamento-meccanico
+    - topica
+    - sistemica
 
 - title: Psoriasi
   description: "Malattia infiammatoria cronica della pelle non infettiva e non contagiosa, sembra essere legata a fattori autoimmuni, genetici e ambientali. Si manifesta con la comparsa di placche, ispessimento e arrossature, coperte da squame di colore grigio che spesso provocano prurito e bruciore, se le lesioni sono localizzate in punti di estensione (gomiti, ginocchia ecc.) la pelle può arrivare a lesionarsi (rompersi)."
-  img: psoriasi
+  code: psoriasi
+  relations:
+    - topica
+
 
 - title: Psoriasi ungueale
   description: "Patologia a carattere infiammatorio sistemico che colpisce la lamina ungueale con la presenza del cosiddetto 'pitting', ovvero piccole lesioni puntiformi depresse, lesioni striate longitudinali o trasversali e ipercheratosi subungueale."
-  img: psoriasi-ungueale
+  code: psoriasi-ungueale
+  relations:
+    - topica
+    - sistemica
 
 - title: Tallodinia
   subtitle: (Tallonite)
   description: "Condizione infiammatoria dolorosa localizzata al tallone. Può derivare da borsiti, tendiniti, fasciti, spina calcaneale e da fratture da stress. Le cause possono essere l'obesità o il sovrappeso, l'artrosi, problematiche posturali, calzature inadeguate, attività sportiva, malattie reumatiche e malattie sistemiche come la gotta."
-  img: tallodinia
+  code: tallodinia
+  relations:
+    - ortesi-plantare
+    - sistemica
 
 - title: Tilomi
   subtitle: (Callo profondo)
   description: "Ipercheratosi (ispessimento cutaneo) concentrata e profonda di forma conica, localizzata più comunemente sulla superficie dorsale dell'articolazione interfalangea e nella pianta del piede."
-   img: tilomi
+   code: tilomi
+  relations:
+    - ortesi-silicone
+    - trattamento-meccanico
+    - podologico
 
 - title: Unghia involuta
   description: "Alterazione della convessità trasversale della lamina ungueale che può essere molto dolorosa, si manifesta in tre forme: a pinza, a tegola, con margini laterali ad angolo acuto."
-  img: unghia-involuta
+  code: unghia-involuta
 
 - title: Verruche
   description: "Infezione della pelle causata dal virus della famiglia del Papilloma Virus (HPV1), facilmente riscontrabile in pazienti che frequentano palestre e piscine o con un indebolimento del sistema immunitario. Si tratta di formazioni costituite da un nucleo di tessuto e rivestito da vari strati di epidermide. Se sono presenti in punti di appoggio possono essere molto dolorose."
-  img: verruche
+  code: verruche
+  relations:
+    - podologico
+    - topica
+

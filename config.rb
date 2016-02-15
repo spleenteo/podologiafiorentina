@@ -37,6 +37,13 @@ helpers do
       link_to name, url, options
     end
   end
+
+  def find_patology(code)
+    data.patologies.find { |code|
+      patology.code == code
+    }
+  end
+
 end
 
 

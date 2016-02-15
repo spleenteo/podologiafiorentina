@@ -2,37 +2,76 @@
 - title: "ORTESI PLANTARE"
   subtitle: "(plantare ortopedico su misura)"
   description: "Dispositivo medico confezionato su misura per il paziente da inserire nelle scarpe adattate o ortopediche con predisposizione per il plantare medico. Serve a modificare le caratteristiche strutturali o funzionali dell'apparato neuro-muscolo-scheletrico del piede."
-  img: ortesi-plantare
+  code: ortesi-plantare
+  relations:
+    - alluce-rigido
+    - alluce-valgo
+    - fascite
+    - ipercheratosi
+    - matatarsalgia
+    - tallodinia
 
 - title: "ORTESI IN SILICONE"
   description: "Dispositivo medico confezionato su misura per il paziente, da applicare direttamente sulla zona del piede da trattare, principalmente sulle dita. Esso può essere di protezione e scarico (protegge una zona dolente o lesa dalla pressione); correttivo (riduce malformazioni delle dita)."
-  img: ortesi-silicone
+  code: ortesi-silicone
+  relations:
+    - tilomi
+    - elomi
 
 
 - title: "Ortonixia"
   description: "Dispositivo medico confezionato su misura per il paziente, atto a rieducare delle lamine ungueali morfologicamente alterate. Consiste nell'applicazione sulla superficie dell’unghia di fili in titanio, che fungono da guida e correggono l'eccessiva curvatura, così da ottenere una corretta ricrescita della stessa e l'eliminazione del dolore."
-  img: ortonixia
+  code: ortonixia
+  relations:
+    - onicocriptosi
+    - onicofosi
 
 - title: "SISTEMICA"
   description: "È l’assunzione di farmaci da parte del paziente per via enterale (gastrointestinali) e parenterale (via percutanea, inalatoria e oculare, ecc.), di pertinenza del medico."
-  img: sistemica
+  code: sistemica
+  relations:
+    - onicomicosi
+    - psoriasi-ungueale
+    - tallodinia
+    - alluce-rigido
+    - disidrosi
+    - fascite
 
 - title: "TOPICA"
   description: "Consiste nell’applicazione di medicazioni semplici o di tipo avanzato sulla parte interessata o comunque in prossimità della lesione. La medicazione non entra nel sistema circolatorio ma esplica la sua aziona a livello locale."
-  img: topica
+  code: topica
 
 - title: "Trattamento meccanico"
   description: "È il trattamento che fa uso degli strumenti professionali del podologo. Bisturi e frese da turbina per la rimozione delle ipercheratosi, tilomi ed elomi; tronchesi per il taglio delle unghie; frese da manipolo per la pulizia profonda delle unghie e dei valli ungueali. Il trattamento meccanico è parte fondamentale del trattamento podologico."
-  img: trattamento-meccanico
+  code: trattamento-meccanico
+  relations:
+    - tilomi
+    - elomi
+    - ipercheratosi
+    - metatarsalgia
+    - onicofosi
+    - onicogrifosi
+    - onicomicosi
+
 
 - title: "TRATTAMENTO PODOLOGICO"
   description: "Dopo un attento esame obiettivo, attraverso la visita podologia, consiste nell’intervento diretto sul piede che racchiude in sé tutte quelle terapie ed azioni che servono a curare e mantenere il piede e i suoi annessi (unghie) in buono stato, mediante terapia meccanica (uso di tronchesi e frese da manipolo, bisturi e frese da turbina), nonché l'utilizzo di medicazioni avanzate e non per la cura delle lesioni. Il trattamento si avvale degli strumenti professionali del podologo."
-  img: podologico
+  code: podologico
+  relations:
+    - tilomi
+    - alluce-valgo
+    - ipercheratosi
+    - matatarsalgia
+    - onicocriptosi
+    - onicofosi
+    - verruche
 
 - title: "VISITA BAROPODOMETRICA"
   description: "Questa visita consiste nel far camminare il paziente sulla pedana baropodometrica. Essa valuta in modo approfondito la modalità di esecuzione del passo del paziente e le sue alterazioni durante la deambulazione, fornendo una registrazione grafica delle pressioni esercitate sul terreno, sia in posizione eretta statica che in dinamica."
-  img: baropodometrica
+  code: baropodometrica
+
 
 - title: "VISITA PODOLOGICA"
   description: "L'esame obiettivo è la prima tappa della visita podologica, è fondamentale per la diagnosi e nella scelta del trattamento e della terapia di tutte le patologie podologiche. Consiste nella valutazione della mobilità articolare; nella palpazione dei polsi arteriosi periferici; nella valutazione dello stato della cute, delle alterazioni dermatologiche, di quelle neurologiche, reumatologiche e posturologiche."
-  img: visita-podologica
+  code: visita-podologica
+

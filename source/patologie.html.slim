@@ -2,7 +2,6 @@
 title: dolore ai piedi patologie
 ---
 
-
 .hero
   .wrap
     .hero__body
@@ -29,12 +28,21 @@ title: dolore ai piedi patologie
 .space--top-1
   .triangle
     .wrap
-      .grid--center.grid
+      .grid
+        .grid__item
+          .filter-title.js-filter-title
+            h2.delta
+              ' Patologie trattate con
+              span class="filter-title__name js-filter-name"
+
+            = link_to "(vedi tutte le patologie)", "/patologie/", class: ".filter-title__reset"
+
+      .grid--center.js-isotope
         - data.patologies.each do |p|
-          .grid__item.lap-6-12.desk-4-12
+          .grid__item.lap-6-12.desk-4-12.isotope-item.js-isotope__item class=p.relations
             .info-box
               .space--top-3
-                = image_tag "patologie/#{p.img}.jpg", title: "foto di #{p.title} #{p.subtitle}", class: "info-box__image"
+                = image_tag "patologie/#{p.code}.jpg", title: "foto di #{p.title} #{p.subtitle}", class: "info-box__image" if p.code.present?
 
               .space--both-1
                 h2.info-box__title = p.title
@@ -43,6 +51,6 @@ title: dolore ai piedi patologie
               .space--both-1: .formatted-content
                 p.info-box__description = p.description
                 p.info-box__button
-                  a href="/trattamenti/"
+                  a href="/trattamenti/?filter=#{p.code}"
                     span trattamento
                     i.icon--arrow-right

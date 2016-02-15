@@ -22,12 +22,21 @@ title: come curare i piedi
 .space--top-1
   .triangle
     .wrap
-      .grid--center.grid
+      .grid
+        .grid__item
+          .filter-title.js-filter-title
+            h2.delta
+              ' Trattamenti per
+              span class="filter-title__name js-filter-name"
+
+            = link_to "(vedi tutti i trattamenti)", "/trattamenti/", class: ".filter-title__reset"
+
+      .grid--center.js-isotope
         - data.treatments.each do |p|
-          .grid__item.lap-6-12.desk-4-12
+          .grid__item.lap-6-12.desk-4-12.isotope-item.js-isotope__item class=p.relations
             .info-box
               .space--top-3
-                = image_tag "trattamenti/#{p.img}.jpg", title: "foto di #{p.title} #{p.subtitle}", class: "info-box__image" if p.img.present?
+                = image_tag "trattamenti/#{p.code}.jpg", title: "foto di #{p.title} #{p.subtitle}", class: "info-box__image" if p.code.present?
 
               .space--both-1
                 h2.info-box__title = p.title
@@ -36,6 +45,6 @@ title: come curare i piedi
               .space--both-1: .formatted-content
                 p.info-box__description = p.description
                 p.info-box__button
-                  a href="/patologie/"
+                  a href="/patologie/?filter=#{p.code}"
                     span sintomi
                     i.icon--arrow-right
