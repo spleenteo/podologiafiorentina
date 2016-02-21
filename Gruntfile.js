@@ -11,7 +11,7 @@ module.exports = function(grunt) {
         src:        "source/fonts/svg",
         fontDest:   "source/fonts",
         sassDest:   "source/stylesheets/variables/_icon-glyphs.scss",
-        formats:    [ "eot", "woff", "ttf", "svg"]
+        formats:    [ "eot", "woff", "woff2", "ttf", "svg"]
       },
       sprites: {
         src:        "source/images/sprites",

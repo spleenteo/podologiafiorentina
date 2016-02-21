@@ -13,38 +13,30 @@ function getUrlParameter(sParam) {
 }
 
 $(document).ready(function(){
-  var elements = document.querySelectorAll('[data-class-toggle]');
-
-  Array.prototype.forEach.call(elements, function(el, i) {
-    var classToToggle = el.getAttribute('data-class-toggle');
-    var elToToggle = document.querySelector(el.getAttribute('data-element'));
-
-    el.addEventListener('click', function(e) {
-      var method = elToToggle.classList.contains(classToToggle) ? 'remove' : 'add';
-      elToToggle.classList[method](classToToggle);
-      e.stopPropagation();
-      e.preventDefault();
-    });
-  });
-
 
   var $container = $('.js-isotope')
-
-  $container.isotope({
-    itemSelector: '.js-isotope__item',
-    layoutMode: 'fitRows',
-    masonry: {
-      columnWidth: ".js-isotope__item"
-    }
-  })
 
   filter = getUrlParameter("filter");
   if(filter != false){
     $(".js-filter-title").show();
     $(".js-filter-name").html(filter.replace("-"," "));
 
-    $container.isotope({ filter: '.'+filter });
+    $container.isotope({
+      filter: '.'+filter,
+      itemSelector: '.js-isotope__item',
+      layoutMode: 'masonry',
+      masonry: {
+        columnWidth: ".js-isotope__item"
+      }
+    });
   }else{
-    $container.isotope({ filter: '*' });
+    $container.isotope({
+      filter: '*',
+      itemSelector: '.js-isotope__item',
+      layoutMode: 'masonry',
+      masonry: {
+        columnWidth: ".js-isotope__item"
+      }
+    });
   }
 });
