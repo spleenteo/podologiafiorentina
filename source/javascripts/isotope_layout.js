@@ -13,7 +13,6 @@ function getUrlParameter(sParam) {
 }
 
 $(document).ready(function(){
-
   var elements = document.querySelectorAll('[data-class-toggle]');
 
   Array.prototype.forEach.call(elements, function(el, i) {
@@ -32,7 +31,6 @@ $(document).ready(function(){
   var $container = $('.js-isotope')
 
   $container.isotope({
-    // main isotope options
     itemSelector: '.js-isotope__item',
     layoutMode: 'fitRows',
     masonry: {
