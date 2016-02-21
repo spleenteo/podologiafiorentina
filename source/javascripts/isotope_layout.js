@@ -12,8 +12,6 @@ function getUrlParameter(sParam) {
     }
 }
 
-
-
 $(document).ready(function(){
 
   var elements = document.querySelectorAll('[data-class-toggle]');
@@ -52,27 +50,3 @@ $(document).ready(function(){
     $container.isotope({ filter: '*' });
   }
 });
-
-
-
-// var $container = document.querySelector('.js-isotope');
-// if ($container) {
-//   $i = new Isotope( $container, {
-//     itemSelector: '.js-isotope__item',
-//     transitionDuration: '0.2s',
-//     layoutMode: 'fitRows',
-//     masonry: {
-//       columnWidth: '.js-isotope__item'
-//     }
-//   });
-// }
-
-// filter = getUrlParameter("filter");
-// if(filter != false){
-//   $(".js-filter-title").show();
-//   $(".js-filter-name").html(filter.replace("-"," "));
-
-//   $i.isotope({ filter: '.'+filter });
-// }else{
-//   $i.isotope({ filter: '*' });
-// }
