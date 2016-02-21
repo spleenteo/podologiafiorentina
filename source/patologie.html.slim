@@ -39,7 +39,7 @@ title: dolore ai piedi patologie
 
       .isotope.js-isotope
         - data.patologies.each do |p|
-          .isotope__item.js-isotope__item.space--top-3 class=p.relations
+          .isotope__item.js-isotope__item class=p.relations
             .info-box
               a href="/trattamenti/?filter=#{p.code}"
                 = image_tag "patologie/#{p.code}.jpg", title: "foto di #{p.title} #{p.subtitle}", class: "info-box__image" if p.code.present?
