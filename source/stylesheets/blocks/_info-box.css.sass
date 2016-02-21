@@ -1,10 +1,27 @@
+.isotope
+.isotope__item
+  width: 100%
+  +at-breakpoint(lap)
+    width: 50%
+  +at-breakpoint(desk)
+    width: 33%
+
 .info-box
   border-bottom: 1px dotted $gray-color
+  clear: both
+  padding: 10px
+
+  &:hover
+    background-color: lighten($gray-color, 15%)
+
+
 
   +at-breakpoint(desk)
     opacity: 0.7
     &:hover
       opacity: 1
+
+
 
 .info-box__title
   +font-size(gamma)
@@ -17,5 +34,6 @@
 .info-box__image
 
 .info-box__button
-  float: right
+  width: 100%
+  text-align: right
 

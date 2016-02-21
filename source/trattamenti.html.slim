@@ -31,11 +31,11 @@ title: come curare i piedi
 
             = link_to "(vedi tutti i trattamenti)", "/trattamenti/", class: ".filter-title__reset"
 
-      .grid--center.js-isotope
+      .isotope.js-isotope
         - data.treatments.each do |p|
-          .grid__item.lap-6-12.desk-4-12.isotope-item.js-isotope__item class=p.relations
+          .isotope__item.js-isotope__item.space--top-3 class=p.relations
             .info-box
-              .space--top-3
+              a href="/patologie/?filter=#{p.code}"
                 = image_tag "trattamenti/#{p.code}.jpg", title: "foto di #{p.title} #{p.subtitle}", class: "info-box__image" if p.code.present?
 
               .space--both-1
