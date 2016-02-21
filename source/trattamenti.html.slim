@@ -32,7 +32,7 @@ title: come curare i piedi
 
     .isotope.js-isotope
       - data.treatments.each do |p|
-        .isotope__item.js-isotope__item.space--top-3 class=p.relations
+        .isotope__item.js-isotope__item class=p.relations
           .info-box
             a href="/patologie/?filter=#{p.code}"
               = image_tag "trattamenti/#{p.code}.jpg", title: "foto di #{p.title} #{p.subtitle}", class: "info-box__image" if p.code.present?
