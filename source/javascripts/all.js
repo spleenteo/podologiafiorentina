@@ -32,24 +32,4 @@ $(document).ready(function(){
       e.preventDefault();
     });
   });
-
-  var $container = $('.js-isotope').isotope({
-    // main isotope options
-    itemSelector: '.js-isotope__item',
-    layoutMode: 'masonry',
-    masonry: {
-      columnWidth: ".js-isotope__item"
-    }
-  })
-
-  filter = getUrlParameter("filter");
-  if(filter != false){
-    $(".js-filter-title").show();
-    $(".js-filter-name").html(filter.replace("-"," "));
-
-    $container.isotope({ filter: '.'+filter });
-  }else{
-    $container.isotope({ filter: '*' });
-  }
-
 });
