@@ -26,31 +26,34 @@ title: dolore ai piedi patologie
 
 
 .space--top-1
-  .triangle
-    .wrap
-      .grid
-        .grid__item
-          .filter-title.js-filter-title
-            h2.delta
-              ' Patologie trattate con
-              span class="filter-title__name js-filter-name"
+  .wrap
+    .grid
+      .grid__item
+        .filter-title.js-filter-title
+          h2.delta
+            ' Patologie trattate con
+            span class="filter-title__name js-filter-name"
 
-            = link_to "(vedi tutte le patologie)", "/patologie/", class: ".filter-title__reset"
+          = link_to "(vedi tutte le patologie)", "/patologie/", class: ".filter-title__reset"
 
-      .isotope.js-isotope
-        - data.patologies.each do |p|
-          .isotope__item.js-isotope__item class=p.relations
-            .info-box
-              a href="/trattamenti/?filter=#{p.code}"
-                = image_tag "patologie/#{p.code}.jpg", title: "foto di #{p.title} #{p.subtitle}", class: "info-box__image" if p.code.present?
+    .isotope.js-isotope
+      - data.patologies.each do |p|
+        .isotope__item.js-isotope__item class=p.relations
+          .info-box
+            a href="/trattamenti/?filter=#{p.code}"
+              = image_tag "patologie/#{p.code}.jpg", title: "foto di #{p.title} #{p.subtitle}", class: "info-box__image" if p.code.present?
 
-              .space--both-1
-                h2.info-box__title = p.title
-                p.info-box__subtitle = p.subtitle if p.subtitle.present?
+            .space--both-1
+              h2.info-box__title = p.title
+              p.info-box__subtitle = p.subtitle if p.subtitle.present?
 
-              .space--both-1: .formatted-content
-                p.info-box__description = p.description
-                p.info-box__button
-                  a href="/trattamenti/?filter=#{p.code}"
-                    span trattamento
-                    i.icon--arrow-right
+            .space--both-1: .formatted-content
+              p.info-box__description = p.description
+              p.info-box__button
+                a href="/trattamenti/?filter=#{p.code}"
+                  span trattamento
+                  i.icon--arrow-right
+
+.triangle
+
+
