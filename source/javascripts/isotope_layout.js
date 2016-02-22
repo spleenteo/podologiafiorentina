@@ -39,4 +39,8 @@ $(document).ready(function(){
       }
     });
   }
+
+  $container.imagesLoaded().progress( function() {
+    $container.isotope('layout');
+  });
 });
