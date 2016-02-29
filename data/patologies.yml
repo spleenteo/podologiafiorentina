@@ -134,6 +134,9 @@
 - title: Unghia involuta
   description: "Alterazione della convessità trasversale della lamina ungueale che può essere molto dolorosa, si manifesta in tre forme: a pinza, a tegola, con margini laterali ad angolo acuto."
   code: unghia-involuta
+  relations:
+    - podologico
+    - ortonixia
 
 - title: Verruche
   description: "Infezione della pelle causata dal virus della famiglia del Papilloma Virus (HPV1), facilmente riscontrabile in pazienti che frequentano palestre e piscine o con un indebolimento del sistema immunitario. Si tratta di formazioni costituite da un nucleo di tessuto e rivestito da vari strati di epidermide. Se sono presenti in punti di appoggio possono essere molto dolorose."

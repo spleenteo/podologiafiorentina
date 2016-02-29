@@ -25,6 +25,7 @@
   relations:
     - onicocriptosi
     - onicofosi
+    - unghia-involuta
 
 - title: "SISTEMICA"
   description: "È l’assunzione di farmaci da parte del paziente per via enterale (gastrointestinali) e parenterale (via percutanea, inalatoria e oculare, ecc.), di pertinenza del medico."
@@ -65,6 +66,7 @@
     - onicocriptosi
     - onicofosi
     - verruche
+    - unghia-involuta
 
 - title: "VISITA BAROPODOMETRICA"
   description: "Questa visita consiste nel far camminare il paziente sulla pedana baropodometrica. Essa valuta in modo approfondito la modalità di esecuzione del passo del paziente e le sue alterazioni durante la deambulazione, fornendo una registrazione grafica delle pressioni esercitate sul terreno, sia in posizione eretta statica che in dinamica."
