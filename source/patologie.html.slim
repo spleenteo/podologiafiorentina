@@ -44,15 +44,16 @@ title: dolore ai piedi patologie
               = image_tag "patologie/#{p.code}.jpg", title: "foto di #{p.title} #{p.subtitle}", class: "info-box__image" if p.code.present?
 
             .space--both-1
-              h2.info-box__title = p.title
-              p.info-box__subtitle = p.subtitle if p.subtitle.present?
+              .info-box__content
+                h2.info-box__title = p.title
+                p.info-box__subtitle = p.subtitle if p.subtitle.present?
 
-            .space--both-1: .formatted-content
-              p.info-box__description = p.description
-              p.info-box__button
-                a href="/trattamenti/?filter=#{p.code}"
-                  span trattamento
-                  i.icon--arrow-right
+                .space--both-1: .formatted-content
+                  p.info-box__description = p.description
+                  p.info-box__button
+                    a href="/trattamenti/?filter=#{p.code}"
+                      span trattamento
+                      i.icon--arrow-right
 
 .triangle
 

@@ -19,7 +19,7 @@ $(document).ready(function(){
       // main isotope options
       itemSelector: '.js-isotope__item',
       percentPosition: true,
-      layoutMode: 'masonry',
+      layoutMode: 'fitRows',
       masonry: {
         columnWidth: ".js-isotope__item"
       }
