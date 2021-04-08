@@ -7,13 +7,13 @@ html
 
     title = "#{ current_page.data.title } | podologia firenze" || "Podologia fiorentina"
 
-    = stylesheet_link_tag "application"
+    = stylesheet_link_tag "styles"
     meta version="1.0"
 
   body
     .canvas
       .canvas__main
-        = partial "header"
+        = partial "partials/header"
         = yield
 
         footer.footer
@@ -23,7 +23,7 @@ html
                 .widget--rev.space--bottom-2
                   h2.widget__title Podologia Fiorentina
                   .widget__body
-                    = partial "footer-details"
+                    = partial "partials/footer-details"
 
               .grid__item.desk-6-12
                 .footer__box
@@ -43,9 +43,9 @@ html
                 = image_tag "logo--full--black.png", title: "Logo Podologia Fiorentina"
             .aside__widget
               .aside__menu
-                = partial "menu"
+                = partial "partials/menu"
 
             .aside__widget
-              = partial "footer-details"
+              = partial "partials/footer-details"
 
-= partial "js_includes"
+= partial "partials/js_includes"

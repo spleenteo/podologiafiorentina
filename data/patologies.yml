@@ -78,7 +78,7 @@
 
 - title: Onicofosi
   description: "È un fastidioso accumulo di ipercheratosi (callo) nel vallo ungueale, cioè intorno alle unghie, dovuto principalmente all'uso di calzature strette o a verticalizzazione e involuzione dell'unghia. "
-   code: onicofosi
+  code: onicofosi
   relations:
     - trattamento-meccanico
     - podologico
@@ -125,7 +125,7 @@
 - title: Tilomi
   subtitle: (Callo profondo)
   description: "Ipercheratosi (ispessimento cutaneo) concentrata e profonda di forma conica, localizzata più comunemente sulla superficie dorsale dell'articolazione interfalangea e nella pianta del piede."
-   code: tilomi
+  code: tilomi
   relations:
     - ortesi-silicone
     - trattamento-meccanico
@@ -139,7 +139,7 @@
     - ortonixia
 
 - title: Verruche
-  description: "Infezione della pelle causata dal virus della famiglia del Papilloma Virus (HPV1), facilmente riscontrabile in pazienti che frequentano palestre e piscine o con un indebolimento del sistema immunitario. Si tratta di formazioni costituite da un nucleo di tessuto e rivestito da vari strati di epidermide. Se sono presenti in punti di appoggio possono essere molto dolorose."
+  description: "Infezione della pelle causata dal virus della famiglia del Papilloma Virus (HPV1), facilmente riscontrabile in pazienti che frequentano palestre e piscine o con un indebolimento del sistema immunitario. Si tratta di formazioni costituite da un nucleo di tessuto e rivestito da vari strati di epidermide.Se sono presenti in punti di appoggio possono essere molto dolorose."
   code: verruche
   relations:
     - podologico
