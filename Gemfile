@@ -1,18 +1,23 @@
 source 'https://rubygems.org'
-source 'https://rails-assets.org'
 
+gem "activesupport"
+gem "middleman", "~> 4.2"
 gem 'middleman-autoprefixer'
-gem 'middleman-livereload', '3.1.0'
-gem "jquery-middleman"
+gem 'middleman-livereload'
+gem 'middleman-minify-html'
 gem 'middleman-search_engine_sitemap'
-gem 'middleman', '3.3.12'
-gem 'rails-assets-normalize-scss'
+gem "middleman-svg"
 gem 'redcarpet'
-gem 'sass'
-gem 'sass-globbing'
 gem 'slim'
-gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
-gem 'wdm', '~> 0.1.0', :platforms => [:mswin, :mingw]
+gem "html_truncator"
+
+# gem 'rails-assets-normalize-scss'
+# gem 'slim'
+# gem "jquery-middleman"
+# gem 'sass'
+# gem 'sass-globbing'
+# gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
+# gem 'wdm', '~> 0.1.0', :platforms => [:mswin, :mingw]
 
 
 
