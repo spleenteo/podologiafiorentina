@@ -10,4 +10,3 @@ gem "middleman-svg"
 gem 'redcarpet'
 gem 'slim'
 gem "html_truncator"
-gem 'pry'
