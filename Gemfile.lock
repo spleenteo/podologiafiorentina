@@ -138,7 +138,6 @@ PLATFORMS
   x86_64-darwin-19
 
 DEPENDENCIES
-  activesupport
   html_truncator
   middleman (~> 4.2)
   middleman-autoprefixer
